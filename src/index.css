@@ -172,13 +172,22 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
-
+.coverimg{
+  width: 50% !important;
+  align-items: center;
+  justify-content: center;
+  
+}
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 .flex{
   display: flex;
+}
+
+.link{
+  color: red;
 }
 
 .space-between {

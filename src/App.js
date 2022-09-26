@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
   const [categories] = useState([
   
-   {name: 'About Me', description:'Learn more about myself.'},
+
     {name: 'projects',description:'A compilation of personal and group projects that display my experience in web development.'},
     {name: 'resume',description:'A link to my resume to be downloaded. '}
     

@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="my-5">
       <h1 id="about">Dawson Tilley</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <img src={coverImage} className="my-2 coverimg" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
         My name is Dawson Tilley and I am a twenty three year old Electrical Engineer. I am from Halifax, Nova Scotia. 

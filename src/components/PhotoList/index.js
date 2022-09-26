@@ -8,13 +8,18 @@ const PhotoList = ({ category }) => {
       name: 'project_1',
       category: 'projects',
       description:
-        'A web app for helping people find nearby breweries.'
+        'A web app for helping people find nearby breweries.',
+        github:'https://github.com/dawsontilley/who-brew/',
+        live:'https://dawsontilley.github.io/who-brew/'
+
     },
     {
       name: 'quotes',
       category: 'projects',
       description:
-        'A social media site for people who want to share their favourite qutoes'
+        'A social media site for people who want to share their favourite qutoes',
+        github:'https://github.com/dawsontilley/who-brew/',
+        live:'https://dawsontilley.github.io/who-brew/'
     },
     {
       name: 'runbuddy-pic',
@@ -22,6 +27,12 @@ const PhotoList = ({ category }) => {
       description:
         'An App for tracking running.'
     },
+    {
+      name:'guess-master',
+      category:'projects',
+      description:'An android application game that lets you guess famouse peoples birthdays.'
+    },
+    
     {
       name:'resume',
       category:'resume',
@@ -45,8 +56,21 @@ const PhotoList = ({ category }) => {
             alt={image.name}
             className="img-thumbnail mx-1"
             key={image.name} />
+            {image.category=== 'projects' &&
+            <><a href={image.github}><p class="link">GitHub Link</p></a>
+            <a href={image.live}><p class="link">Live Link (if deployable)</p></a></>}
             {image.category === 'resume' &&
-            <p><a class='dark'href="../../assets/resume/Dawson_Tilley_SWE.pdf" download="dawson_tilley_resume">Download my resume.</a></p>}
+            <><p><a class='dark' href="../../assets/resume/Dawson_Tilley_SWE.pdf" download="dawson_tilley_resume">Download my resume.</a></p>
+            <h3>Proficiencies:</h3>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JS</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Mongo</li>
+              <li>Java</li>
+            </ul>
+            </>}
 
             {currentCategory==='about me' &&
             <p>IT WORKS</p>}

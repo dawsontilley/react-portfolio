@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Projects from '../Projects';
 
 const PhotoList = ({ category }) => {
 
@@ -18,8 +19,8 @@ const PhotoList = ({ category }) => {
       category: 'projects',
       description:
         'A social media site for people who want to share their favourite qutoes',
-        github:'https://github.com/dawsontilley/who-brew/',
-        live:'https://dawsontilley.github.io/who-brew/'
+        github:'https://github.com/Moshe-jpg/inspirational-quotes-db',
+        live:'https://inspirational-quote-app.herokuapp.com/'
     },
     {
       name: 'runbuddy-pic',
@@ -30,8 +31,22 @@ const PhotoList = ({ category }) => {
     {
       name:'guess-master',
       category:'projects',
-      description:'An android application game that lets you guess famouse peoples birthdays.'
+      description:'An android application game that lets you guess famouse peoples birthdays.',
+      github:'https://github.com/dawsontilley/GuessMaster'
+    },{
+      name:'weather-dashboard',
+      category: 'projects',
+      description: 'a dashboard that can retrieve the weather for any city in the world that you would like.',
+      github:'https://github.com/dawsontilley/weather-dash',
+      live:'https://dawsontilley.github.io/weather-dash/'
     },
+    {
+      name:'working title game',
+      category:'projects',
+      description:'An interactive game made in python that lets users fly thorugh the sky while avoiding flaming skulls.',
+      github:'https://github.com/dawsontilley/working-title-game'
+    }
+    ,
     
     {
       name:'resume',

@@ -75,7 +75,7 @@ const PhotoList = ({ category }) => {
             <><a href={image.github}><p class="link">GitHub Link</p></a>
             <a href={image.live}><p class="link">Live Link (if deployable)</p></a></>}
             {image.category === 'resume' &&
-            <><p><a class='dark' href="../../assets/resume/Dawson_Tilley_SWE.pdf" download="dawson_tilley_resume">Download my resume.</a></p>
+            <><p><a class='dark' href="https://github.com/dawsontilley/SWE-Resume" download="dawson_tilley_resume">Download my resume.</a></p>
             <h3>Proficiencies:</h3>
             <ul>
               <li>HTML/CSS</li>

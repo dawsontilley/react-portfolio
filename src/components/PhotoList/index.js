@@ -23,12 +23,6 @@ const PhotoList = ({ category }) => {
         live:'https://inspirational-quote-app.herokuapp.com/'
     },
     {
-      name: 'runbuddy-pic',
-      category: 'projects',
-      description:
-        'An App for tracking running.'
-    },
-    {
       name:'guess-master',
       category:'projects',
       description:'An android application game that lets you guess famouse peoples birthdays.',

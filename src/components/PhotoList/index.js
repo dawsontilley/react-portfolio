@@ -39,6 +39,12 @@ const PhotoList = ({ category }) => {
       category:'projects',
       description:'An interactive game made in python that lets users fly thorugh the sky while avoiding flaming skulls.',
       github:'https://github.com/dawsontilley/working-title-game'
+    },{
+      name:"tradeway",
+      category:"projects",
+      description:"An app for buying and selling your things.",
+      github:"https://github.com/Beca-d/Make-A-Deal",
+      live:'https://make-a-deal2.herokuapp.com/'
     }
     ,
     
